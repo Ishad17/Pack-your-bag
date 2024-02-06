@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">packYourBag</string>
+    <string name="about_us">About Us</string>
+    <string name="create_custom_list">Create custom list</string>
+</resources>

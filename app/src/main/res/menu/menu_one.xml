@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/btnMySelections"
+        android:title="My Selections"
+        tools:ignore="HardcodedText" />
+
+    <item android:id="@+id/btnCustomList"
+        android:title="@string/create_custom_list"/>
+
+    <item android:id="@+id/btnReset"
+        android:title="Reset to default"
+        tools:ignore="HardcodedText" />
+
+    <item android:id="@+id/btnDeleteDefault"
+        android:title="Delete default data"
+        tools:ignore="HardcodedText" />
+
+    <item android:id="@+id/btnAboutUs"
+        android:title="@string/about_us"/>
+
+    <item android:id="@+id/btnExit"
+        android:title="Exit"
+        tools:ignore="HardcodedText" />
+
+    <item android:id="@+id/btnSearch"
+        android:title="Search"
+        android:icon="@drawable/ic__search"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        tools:ignore="HardcodedText" />
+
+</menu>
